@@ -1,0 +1,165 @@
+.form-control.search {
+  width: 240px;
+  height: 35px;
+  border-radius: 16px;
+  border: none;
+  margin-top: 5px;
+  background-color: white;
+}
+.form-control.search::-moz-placeholder {
+  color: #262525;
+}
+.form-control.search::placeholder {
+  color: #262525;
+}
+
+.carousel-inner .card {
+  width: 300px;
+  border-radius: 15px;
+  height: 185px;
+}
+.carousel-inner .card .card-body {
+  line-height: 16px;
+}
+.carousel-inner .card .cutsom-btn {
+  border: 1px solid #262525;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #262525;
+  width: 100px;
+  text-align: center;
+  font-weight: 600;
+}
+.carousel-inner .carousel-item .row {
+  gap: 40px;
+  flex-wrap: nowrap;
+}
+
+.no-wrap {
+  flex-wrap: nowrap !important;
+}
+
+.text-danger {
+  color: #FF0000;
+}
+
+.f-8 {
+  font-size: 8px;
+}
+
+.f-10, .cutsom-btn-drop, .carousel-inner .card .cutsom-btn {
+  font-size: 10px;
+}
+
+.f-12 {
+  font-size: 12px;
+}
+
+.f-14, .nav-pills .nav-link {
+  font-size: 14px;
+}
+
+.f-18 {
+  font-size: 18px;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.f-24 {
+  font-size: 24px;
+}
+
+.card.radius-10 {
+  border-radius: 10px;
+}
+
+.blog-details h6 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.blog-details p {
+  line-height: 21px;
+  color: #666666;
+  word-spacing: -1px;
+  font-weight: 400;
+}
+
+.blog-footer {
+  color: #666666;
+}
+.blog-footer .divider {
+  height: 20px;
+  width: 2px;
+  background-color: #666666;
+}
+
+.nav-pills .nav-link {
+  padding: 5px 16px;
+}
+.nav-pills .nav-link.active {
+  background-color: #262525 !important;
+  border-radius: 50px;
+  color: white;
+}
+.nav-pills .nav-link:not(.active) {
+  color: #262525;
+}
+
+.bg-c-black {
+  background: linear-gradient(98.34deg, #000000 0.27%, #5E5D5D 99.2%);
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.scrore-board img {
+  position: relative;
+  top: 10px;
+  width: 97px;
+}
+
+.horizental-card-area .blog-img img {
+  width: 168px;
+  height: 93px;
+}
+.horizental-card-area h6 {
+  white-space: wrap;
+  color: #222222;
+}
+
+.short-blog p {
+  color: #666666;
+}
+
+.cutsom-btn-drop {
+  border: 1px solid #262525;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #262525;
+  width: 100px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: -5px;
+}
+
+.table th {
+  background-color: black !important;
+  color: white !important;
+}
+
+.right-radius {
+  border-top-left-radius: 17px;
+}
+
+.left-radius {
+  border-top-right-radius: 17px;
+}
+
+td img {
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=style.css.map */
