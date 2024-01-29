@@ -1,887 +1,1402 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>
+			Project
+		</title>
+		<link rel="stylesheet" href="./assets/css/style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+		rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+		crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		rel="stylesheet">
+	</head>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg b-dark navbar-dark ">
+			<div class="container ">
+				<a class="navbar-brand" href="#">
+					CricBites
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+					</span>
+				</button>
+				<div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					</ul>
+					<form class="d-flex gap-3" role="search">
+						<div class="searc-bar-wrapper position-relative">
+							<input class="form-control search me-2" type="search" placeholder="Search hereSome other content"
+							aria-label="Search">
+							<i class="bi bi-search t-dark position-absolute">
+							</i>
+						</div>
+						<i class="bi bi-person-circle text-light h2">
+						</i>
+						<i class="bi bi-list text-light h2">
+						</i>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<section class="section mt-3">
+			<div class="container">
+				<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+					<li class="nav-item" role="presentation">
+						<button class="nav-link active f-14" id="pills-home-tab" data-bs-toggle="pill"
+						data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+						aria-selected="true">
+							ODI World Cup
+						</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link f-14" id="pills-profile-tab" data-bs-toggle="pill"
+						data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+						aria-selected="false">
+							WBBL
+						</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link f-14" id="pills-contact-tab" data-bs-toggle="pill"
+						data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+						aria-selected="false">
+							QEA Trophy 2023
+						</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link f-14" id="pills-contact-tab" data-bs-toggle="pill"
+						data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+						aria-selected="false">
+							SMAT 2023
+						</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link f-14" id="pills-contact-tab" data-bs-toggle="pill"
+						data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+						aria-selected="false">
+							TCPL
+						</button>
+					</li>
+				</ul>
+				<div class="tab-content" id="pills-tabContent">
+					<div class="tab-pane fade show active " id="pills-home" role="tabpanel"
+					aria-labelledby="pills-home-tab" tabindex="0">
+						<div id="productCarousel" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="row">
+										<div class="col-md-3">
+											<div class="card ">
+												<div class="card-body py-1">
+													<div class="card-content text-center">
+														<p class="f-12 mb-0">
+															<span class="text-danger">
+																Live
+															</span>
+															-
+															<strong>
+																18th Match
+															</strong>
+															-
+															<span class="text-secondary">
+																Bengaluru
+															</span>
+														</p>
+														<span class="f-10">
+															ICC Cricket World Cup
+														</span>
+														<div class="teams-block mb-3 d-flex justify-content-between align-items-center">
+															<div class="rl-side d-flex  align-items-center">
+																<img src="./assets/images/india.png" alt="" class="img-circle mr-2"
+																/>
+																<p class="f-10 mb-0">
+																	<strong>
+																		Australia
+																	</strong>
+																</p>
+															</div>
+															<div class="lr-slide">
+																<p class="mb-0 f-10">
+																	367-9 (50)
+																</p>
+															</div>
+														</div>
+														<div class="teams-block d-flex justify-content-between align-items-center">
+															<div class="rl-side d-flex align-items-center">
+																<img src="./assets/images/india.png" alt="" class="img-circle mr-2">
+																<p class="f-10 mb-0">
+																	<strong>
+																		Pakistan
+																	</strong>
+																</p>
+															</div>
+															<div class="lr-slide">
+																<p class="mb-0 f-10">
+																	50-0 (9)
+																</p>
+															</div>
+														</div>
+														<div class="remamining-area text-left">
+															<span class="text-danger f-8">
+																Pakistan need 313 runs in 41 remaining overs
+															</span>
+														</div>
+													</div>
+													<div class="card-act px-2 d-flex gap-3 mt-2">
+														<a href="#" class="cutsom-btn px-2 py-1">
+															Fantasy
+														</a>
+														<a href="#" class="cutsom-btn px-2 py-1">
+															Fantasy
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="card ">
+												<div class="card-body py-1">
+													<div class="card-content text-center">
+														<p class="f-12 mb-0">
+															<span class="text-danger">
+																Live
+															</span>
+															-
+															<strong>
+																18th Match
+															</strong>
+															-
+															<span class="text-secondary">
+																Bengaluru
+															</span>
+														</p>
+														<span class="f-10">
+															ICC Cricket World Cup
+														</span>
+														<div class="teams-block mb-3 d-flex justify-content-between align-items-center">
+															<div class="rl-side d-flex  align-items-center">
+																<img src="./assets/images/india.png" alt="" class="img-circle mr-2"
+																/>
+																<p class="f-10 mb-0">
+																	<strong>
+																		Australia
+																	</strong>
+																</p>
+															</div>
+															<div class="lr-slide">
+																<p class="mb-0 f-10">
+																	367-9 (50)
+																</p>
+															</div>
+														</div>
+														<div class="teams-block d-flex justify-content-between align-items-center">
+															<div class="rl-side d-flex align-items-center">
+																<img src="./assets/images/india.png" alt="" class="img-circle mr-2">
+																<p class="f-10 mb-0">
+																	<strong>
+																		Pakistan
+																	</strong>
+																</p>
+															</div>
+															<div class="lr-slide">
+																<p class="mb-0 f-10">
+																	50-0 (9)
+																</p>
+															</div>
+														</div>
+														<div class="remamining-area text-left">
+															<span class="text-danger f-8">
+																Pakistan need 313 runs in 41 remaining overs
+															</span>
+														</div>
+													</div>
+													<div class="card-act px-2 d-flex gap-3 mt-2">
+														<a href="#" class="cutsom-btn px-2 py-1">
+															Fantasy
+														</a>
+														<a href="#" class="cutsom-btn px-2 py-1">
+															Fantasy
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="card ">
+												<div class="card-body py-1">
+													<div class="card-content text-center">
+														<p class="f-12 mb-0">
+															<span class="text-danger">
+																Live
+															</span>
+															-
+															<strong>
+																18th Match
+															</strong>
+															-
+															<span class="text-secondary">
+																Bengaluru
+															</span>
+														</p>
+														<span class="f-10">
+															ICC Cricket World Cup
+														</span>
+														<div class="teams-block mb-3 d-flex justify-content-between align-items-center">
+															<div class="rl-side d-flex  align-items-center">
+																<img src="./assets/images/india.png" alt="" class="img-circle mr-2"
+																/>
+																<p class="f-10 mb-0">
+																	<strong>
+																		Australia
+																	</strong>
+																</p>
+															</div>
+															<div class="lr-slide">
+																<p class="mb-0 f-10">
+																	367-9 (50)
+																</p>
+															</div>
+														</div>
+														<div class="teams-block d-flex justify-content-between align-items-center">
+															<div class="rl-side d-flex align-items-center">
+																<img src="./assets/images/india.png" alt="" class="img-circle mr-2">
+																<p class="f-10 mb-0">
+																	<strong>
+																		Pakistan
+																	</strong>
+																</p>
+															</div>
+															<div class="lr-slide">
+																<p class="mb-0 f-10">
+																	50-0 (9)
+																</p>
+															</div>
+														</div>
+														<div class="remamining-area text-left">
+															<span class="text-danger f-8">
+																Pakistan need 313 runs in 41 remaining overs
+															</span>
+														</div>
+													</div>
+													<div class="card-act px-2 d-flex gap-3 mt-2">
+														<a href="#" class="cutsom-btn px-2 py-1">
+															Fantasy
+														</a>
+														<a href="#" class="cutsom-btn px-2 py-1">
+															Fantasy
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="card ">
+												<div class="card-body py-1">
+													<div class="card-content text-center">
+														<p class="f-12 mb-0">
+															<span class="text-danger">
+																Live
+															</span>
+															-
+															<strong>
+																18th Match
+															</strong>
+															-
+															<span class="text-secondary">
+																Bengaluru
+															</span>
+														</p>
+														<span class="f-10">
+															ICC Cricket World Cup
+														</span>
+														<div class="teams-block mb-3 d-flex justify-content-between align-items-center">
+															<div class="rl-side d-flex  align-items-center">
+																<img src="./assets/images/india.png" alt="" class="img-circle mr-2"
+																/>
+																<p class="f-10 mb-0">
+																	<strong>
+																		Australia
+																	</strong>
+																</p>
+															</div>
+															<div class="lr-slide">
+																<p class="mb-0 f-10">
+																	367-9 (50)
+																</p>
+															</div>
+														</div>
+														<div class="teams-block d-flex justify-content-between align-items-center">
+															<div class="rl-side d-flex align-items-center">
+																<img src="./assets/images/india.png" alt="" class="img-circle mr-2">
+																<p class="f-10 mb-0">
+																	<strong>
+																		Pakistan
+																	</strong>
+																</p>
+															</div>
+															<div class="lr-slide">
+																<p class="mb-0 f-10">
+																	50-0 (9)
+																</p>
+															</div>
+														</div>
+														<div class="remamining-area text-left">
+															<span class="text-danger f-8">
+																Pakistan need 313 runs in 41 remaining overs
+															</span>
+														</div>
+													</div>
+													<div class="card-act px-2 d-flex gap-3 mt-2">
+														<a href="#" class="cutsom-btn px-2 py-1">
+															Fantasy
+														</a>
+														<a href="#" class="cutsom-btn px-2 py-1">
+															Fantasy
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="row">
+										<div class="col-md-3">
+											<div class="card">
+												<div class="card-body py-1">
+													Card 5
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="card">
+												<div class="card-body py-1">
+													Card 6
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="card">
+												<div class="card-body py-1">
+													Card 7
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="card">
+												<div class="card-body py-1">
+													Card 8
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Add more slides as needed -->
+							</div>
+							<!-- Add navigation controls (optional) -->
+							<a class="carousel-control-prev" href="#productCarousel" role="button"
+							data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true">
+								</span>
+								<span class="sr-only">
+									Previous
+								</span>
+							</a>
+							<a class="carousel-control-next" href="#productCarousel" role="button"
+							data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true">
+								</span>
+								<span class="sr-only">
+									Next
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+					tabindex="0">
+						Some other content
+					</div>
+					<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+					tabindex="0">
+						Some other content
+					</div>
+					<div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+					tabindex="0">
+						Some other content
+					</div>
+				</div>
+			</div>
+		</section>
+		<article class="mt-3">
+			<div class="container">
+				<div class="row no-wrap">
+					<div class="col-md-4 pe-1">
+						<div class="card radius-10">
+							<div class="card-body p-3">
+								<h1 class="f-18 text-center">
+									WORLD CUP STATS
+								</h1>
+								<div class="player-card mb-2 bg-c-black d-flex align-items-center justify-content-between">
+									<div class="p-c w-100">
+										<h3 class="f-16 mb-0">
+											Most Runs
+										</h3>
+										<p class="f-12">
+											Rachin Ravindra
+										</p>
+										<div class="d-flex gap-3 align-items-center">
+											<img src="./assets/images/india.png" alt="">
+											<h2 class="f-12 mb-0">
+												NZ
+											</h2>
+										</div>
+									</div>
+									<div class="scrore-board w-100 d-flex align-items-center">
+										<div class="score mt-3 w-100">
+											<h2 class="f-16 mb-0">
+												565
+											</h2>
+											<p mb-0>
+												Runs
+											</p>
+										</div>
+										<img src="./assets/images/Screenshot_2023-11-10_155948-removebg-preview 1 (1).svg"
+										alt="">
+									</div>
+								</div>
+								<div class="player-card  mb-2 bg-c-black d-flex align-items-center justify-content-between">
+									<div class="p-c w-100">
+										<h3 class="f-16 mb-0">
+											Most Wickets
+										</h3>
+										<p class="f-12">
+											Dilshan Madushanka
+										</p>
+										<div class="d-flex gap-3 align-items-center">
+											<img src="./assets/images/india.png" alt="">
+											<h2 class="f-12 mb-0">
+												SL
+											</h2>
+										</div>
+									</div>
+									<div class="scrore-board w-100 d-flex align-items-center">
+										<div class="score mt-3 w-100">
+											<h2 class="f-16 mb-0">
+												21
+											</h2>
+											<p mb-0>
+												Wickets
+											</p>
+										</div>
+										<img src="./assets/images/s.svg" alt="">
+									</div>
+								</div>
+								<div class="player-card  mb-2 bg-c-black d-flex align-items-center justify-content-between">
+									<div class="p-c w-100">
+										<h3 class="f-16 mb-0">
+											Most 100s
+										</h3>
+										<p class="f-12">
+											Quinton de Kock
+										</p>
+										<div class="d-flex gap-3 align-items-center">
+											<img src="./assets/images/india.png" alt="">
+											<h2 class="f-12 mb-0">
+												SA
+											</h2>
+										</div>
+									</div>
+									<div class="scrore-board w-100 d-flex align-items-center">
+										<div class="score mt-3 w-100">
+											<h2 class="f-16 mb-0">
+												4
+											</h2>
+											<p class="mb-0">
+												100s
+											</p>
+										</div>
+										<img src="./assets/images/sss.png" alt="">
+									</div>
+								</div>
+								<div class="player-card  mb-2 bg-c-black d-flex align-items-center justify-content-between">
+									<div class="p-c w-100">
+										<h3 class="f-16 mb-0">
+											Most Runs
+										</h3>
+										<p class="f-12">
+											Rachin Ravindra
+										</p>
+										<div class="d-flex gap-3 align-items-center">
+											<img src="./assets/images/india.png" alt="">
+											<h2 class="f-12 mb-0">
+												NZ
+											</h2>
+										</div>
+									</div>
+									<div class="scrore-board w-100 d-flex align-items-center">
+										<div class="score mt-3 w-100">
+											<h2 class="f-16 mb-0">
+												565
+											</h2>
+											<p mb-0>
+												Runs
+											</p>
+										</div>
+										<img src="./assets/images/Screenshot_2023-11-10_155948-removebg-preview 1 (1).svg"
+										alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="add-space text-center my-2">
+							<img src="./assets/images/goolge ads.png" alt="" class="w-75">
+						</div>
+						<div class="card radius-10 mt-3">
+							<div class="card-body p-3">
+								<h1 class="f-18 text-center">
+									LATEST NEWS
+								</h1>
+								<div class="card-body short-blog p-0 mb-3">
+									<div class="card-img p-0">
+										<img src="./assets/images/diana-baig-injured-her-index-f.jpg.jpg" alt=""
+										class="w-100">
+									</div>
+									<h4 class="title f-16 mb-0 mt-1">
+										January 2023 - News Digest
+									</h4>
+									<p class="f-14">
+										News byte that you may have otherwise
+									</p>
+								</div>
+								<div class="card-body short-blog p-0 mb-3">
+									<div class="card-img p-0">
+										<img src="./assets/images/rishabh-pant-was-involved-in-a.jpg.png" alt=""
+										class="w-100">
+									</div>
+									<h4 class="title f-16 mb-0 mt-1">
+										The good Samaritans who came to Rishabh Pant's rescue
+									</h4>
+									<p class="f-14">
+										Bus driver Sushil and conductor Paramjeet, who rushed to help Rishabh
+										Pant, recalled the turn of events in the wee hours
+									</p>
+								</div>
+								<div class="card-body short-blog p-0 mb-3">
+									<div class="card-img p-0">
+										<img src="./assets/images/david-warner-withdrew-his-appe.jpg.png" alt=""
+										class="w-100">
+									</div>
+									<h4 class="title f-16 mb-0 mt-1">
+										Cricket Australia lose sight of what Warner has become
+									</h4>
+									<p class="f-14">
+										By dragging this captaincy ban issue out much longer than was required,
+										CA have once again highlighted the prevalent archaic master-slave relationship
+										between administrators and players in sport
+									</p>
+								</div>
+								<div class="card-body short-blog p-0 mb-3">
+									<div class="card-img p-0">
+										<img src="./assets/images/gill-has-emerged-as-the-leadin.jpg.png" alt=""
+										class="w-100">
+									</div>
+									<h4 class="title f-16 mb-0 mt-1">
+										How are India's ODI stocks as they build up for the 2023 World Cup?
+									</h4>
+									<p class="f-14">
+										The series against Bangladesh will see a near full strength India side
+										kick-starting the journey to the 2023 World Cup
+									</p>
+								</div>
+								<div class="card-body short-blog p-0 mb-3">
+									<div class="card-img p-0">
+										<img src="./assets/images/putting-up-fighting-totals-in.jpg.png" alt=""
+										class="w-100">
+									</div>
+									<h4 class="title f-16 mb-0 mt-1">
+										Onus on Bangladesh batters to deliver in next WTC cycle
+									</h4>
+									<p class="f-14">
+										In Test cricket, Bangladesh have had a poor record for a while which is
+										largely down to their low scores in the first innings. Will things change
+										in the next WTC cycle?
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5 p-1">
+						<div class="card border-0">
+							<div class="card-body ">
+								<ul class="nav btn-grp nav-pills mb-3 justify-content-center" id="pills-tab"
+								role="tablist">
+									<li class="nav-item" role="presentation">
+										<button class="nav-link px-5 active" id="pills-home-tab" data-bs-toggle="pill"
+										data-bs-target="#article" type="button" role="tab" aria-controls="pills-home"
+										aria-selected="true">
+											Articles
+										</button>
+									</li>
+									<li class="nav-item" role="presentation">
+										<button class="nav-link px-5" id="pills-profile-tab" data-bs-toggle="pill"
+										data-bs-target="#fantasy" type="button" role="tab" aria-controls="pills-profile"
+										aria-selected="false">
+											Fantasy
+										</button>
+									</li>
+								</ul>
+								<div class="tab-content" id="pills-tabContent">
+									<div class="tab-pane fade show active" id="article" role="tabpanel" aria-labelledby="pills-home-tab"
+									tabindex="0">
+										<div class="blog-area">
+											<div class="blog-img">
+												<img src="./assets/images/1697802797229_Cummins 1 (1).png" alt="" class="w-100">
+											</div>
+											<div class="blog-details mt-2">
+												<h6 class="mb-0 f-24 my-2">
+													Twitter Reactions: Openers Warner-Marsh's Twitter Reactions: Openers Warner-Marsh's
+												</h6>
+												<p class="f-14">
+													The financial bids will need to be submitted two days later but the technical
+													bids will provide a good indication about the parties interested in buying
+													the five WIPL teams
+												</p>
+											</div>
+											<div class="blog-footer d-flex f-12 gap-3 align-items-center">
+												<p class="mb-0 ">
+													<i class="bi bi-calendar3 f-18">
+													</i>
+													&nbsp; Sun, Oct 20 2023
+												</p>
+												<div class="divider">
+												</div>
+												<p class="mb-0">
+													<i class="bi bi-clock f-18">
+													</i>
+													&nbsp; 2 min read
+												</p>
+											</div>
+										</div>
+										<hr>
+										<div class="blog-area">
+											<p class="f-12 mb-1">
+												Australia VS Pakistan, 18th Match WTC 2023
+											</p>
+											<div class="blog-img">
+												<img src="./assets/images/clinical-india-take-unassailab.jpg.png" alt=""
+												class="w-100 rounded">
+											</div>
+											<div class="blog-details mt-2">
+												<h6 class="mb-0 f-24 my-2">
+													Top 3 World Cup matches which were decided by Pakistan's dropped catches
+												</h6>
+												<p class="f-14">
+													Pakistan team has always been the butt of jokes when it comes to fielding.
+												</p>
+												</p>
+											</div>
+											<div class="blog-footer d-flex f-12 gap-3 align-items-center">
+												<div class="card w-75">
+													<div class="card-body py-1">
+														<div class="card-content text-center">
+															<div class="teams-block mb-3 d-flex justify-content-between align-items-center">
+																<div class="rl-side d-flex  align-items-center">
+																	<img src="./assets/images/india.png" alt="" class="img-circle mr-2" />
+																	<p class="f-10 mb-0">
+																		<strong>
+																			Australia
+																		</strong>
+																	</p>
+																</div>
+																<div class="lr-slide">
+																	<p class="mb-0 f-10">
+																		367-9 (50)
+																	</p>
+																</div>
+															</div>
+															<div class="teams-block d-flex justify-content-between align-items-center">
+																<div class="rl-side d-flex align-items-center">
+																	<img src="./assets/images/india.png" alt="" class="img-circle mr-2">
+																	<p class="f-10 mb-0">
+																		<strong>
+																			Pakistan
+																		</strong>
+																	</p>
+																</div>
+																<div class="lr-slide">
+																	<p class="mb-0 f-10">
+																		50-0 (9)
+																	</p>
+																</div>
+															</div>
+															<div class="remamining-area text-left">
+																<span class="text-danger f-8">
+																	Pakistan need 313 runs in 41 remaining overs
+																</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<hr>
+										<div class="blog-area">
+											<p class="f-12 mb-1">
+												RANJI TROPHY
+											</p>
+											<div class="horizental-card-area d-flex gap-3 align-items-end">
+												<div class="blog-img">
+													<img src="./assets/images/clinical-india-take-unassailab.jpg.png" alt=""
+													class="rounded">
+												</div>
+												<div class="blog-details mt-2 w-100">
+													<h6 class="mb-0 f-18 my-2 w-100">
+														Ranji Highlights: Bengal, Karnataka reach quarterfinals
+													</h6>
+													<div class="blog-footer ">
+														<p class="mb-0 f-10">
+															<i class="bi bi-calendar3 f-10">
+															</i>
+															&nbsp; 2d ago
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="blog-area-details-2 mt-2">
+												<p class="f-14">
+													A draw against Kerala was enough for Karnataka to reach the last 8 whereas
+													Bengal thrashed Haryana to progress
+												</p>
+											</div>
+										</div>
+										<hr>
+										<div class="blog-area">
+											<p class="f-12 mb-1">
+												PAKISTAN WOMEN TOUR OF AUSTRALIA, 2023
+											</p>
+											<div class="horizental-card-area d-flex gap-3 align-items-end">
+												<div class="blog-img">
+													<img src="./assets/images/mooneys-career-best-133-sets.jpg.png" alt=""
+													class="rounded">
+												</div>
+												<div class="blog-details mt-2 w-100">
+													<h6 class="mb-0 f-18 my-2 w-100">
+														Mooney's career-best 133 sets up ODI series sweep 2023 tour
+													</h6>
+													<div class="blog-footer ">
+														<p class="mb-0 f-10">
+															<i class="bi bi-calendar3 f-10">
+															</i>
+															&nbsp; 2d ago
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="blog-area-details-2 mt-2">
+												<p class="f-14">
+													A draw against Kerala was enough for Karnataka to reach the last 8 whereas
+													Bengal thrashed Haryana to progress
+												</p>
+											</div>
+										</div>
+										<hr>
+										<div class="blog-area">
+											<p class="f-12 mb-1">
+												SA20 2023
+											</p>
+											<div class="horizental-card-area d-flex gap-3 align-items-end">
+												<div class="blog-img">
+													<img src="./assets/images/paarl-royals-return-to-winning.jpg.png" alt=""
+													class="rounded">
+												</div>
+												<div class="blog-details mt-2 w-100">
+													<h6 class="mb-0 f-18 my-2 w-100">
+														Paarl Royals return to winning ways Paarl Royals return to
+													</h6>
+													<div class="blog-footer ">
+														<p class="mb-0 f-10">
+															<i class="bi bi-calendar3 f-10">
+															</i>
+															&nbsp; 2d ago
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="blog-area-details-2 mt-2">
+												<p class="f-14">
+													Theunis de Bruyn's half-century went in vain as Royals secured a six-wicket
+													win over Pretoria Capitals
+												</p>
+											</div>
+										</div>
+										<hr>
+										<div class="blog-area">
+											<p class="f-12 mb-1">
+												BIG BASH LEAGUE, 2022-23
+											</p>
+											<div class="horizental-card-area d-flex gap-3 align-items-end">
+												<div class="blog-img">
+													<img src="./assets/images/smiths-second-successive-ton.jpg.png" alt=""
+													class="rounded">
+												</div>
+												<div class="blog-details mt-2 w-100">
+													<h6 class="mb-0 f-18 my-2 w-100">
+														Smith's second successive ton sets up Sixers' big win against Thunder
+													</h6>
+													<div class="blog-footer ">
+														<p class="mb-0 f-10">
+															<i class="bi bi-calendar3 f-10">
+															</i>
+															&nbsp; 2d ago
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="blog-area-details-2 mt-2">
+												<p class="f-14">
+													Steve Smith struck an unbeaten 125 off 66 before Steve O'Keefe and Sean
+													Abbott picked up seven wickets between them to power their side to a 125-run
+													win
+												</p>
+											</div>
+										</div>
+										<div class="add-space text-center mt-3">
+											<img src="./assets/images/google-ads-2.jpg" alt="" class="w-100">
+										</div>
+									</div>
+									<div class="tab-pane fade" id="fantasy" role="tabpanel" aria-labelledby="pills-profile-tab"
+									tabindex="0">
+										Some other content
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 ps-1">
+						<div class="card radius-10 text-center">
+							<div class="card-body  pb-2-2 p-0 overflow-hidden">
+								<h1 class="f-18 p-3">
+									WC POINTS TABLE
+								</h1>
+								<div class="table-data-area">
+									<table class="table">
+										<thead class="">
+											<tr class="f-14">
+												<th class="px-1 border-0 right-radius">
+													No
+												</th>
+												<th class="px-1">
+													Team
+												</th>
+												<th class="px-1">
+													M
+												</th>
+												<th class="px-1">
+													W
+												</th>
+												<th class="px-1">
+													L
+												</th>
+												<th class="px-1">
+													PT
+												</th>
+												<th class="px-1 left-radius border-0">
+													NRR
+												</th>
+											</tr>
+										</thead>
+										<tbody class="f-12">
+											<tr>
+												<td class="px-1 py-2">
+													1
+												</td>
+												<td class="px-1 py-2">
+													<div class="d-flex align-items-center gap-1">
+														<img src="./assets/images/india.png" alt="">
+														<p class="mb-0">
+															IND
+														</p>
+													</div>
+												</td>
+												<td class="px-1 py-2">
+													8
+												</td>
+												<td class="px-1 py-2">
+													8
+												</td>
+												<td class="px-1 py-2">
+													0
+												</td>
+												<td class="px-1 py-2">
+													16
+												</td>
+												<td class="px-1 py-2">
+													2.456
+												</td>
+											</tr>
+											<tr>
+												<td class="px-1 py-2">
+													2
+												</td>
+												<td class="px-1 py-2">
+													<div class="d-flex align-items-center gap-1">
+														<img src="./assets/images/india.png" alt="">
+														<p class="mb-0">
+															IND
+														</p>
+													</div>
+												</td>
+												<td class="px-1 py-2">
+													8
+												</td>
+												<td class="px-1 py-2">
+													8
+												</td>
+												<td class="px-1 py-2">
+													0
+												</td>
+												<td class="px-1 py-2">
+													16
+												</td>
+												<td class="px-1 py-2">
+													2.456
+												</td>
+											</tr>
+											<tr>
+												<td class="px-1 py-2">
+													3
+												</td>
+												<td class="px-1 py-2">
+													<div class="d-flex align-items-center gap-1">
+														<img src="./assets/images/india.png" alt="">
+														<p class="mb-0">
+															IND
+														</p>
+													</div>
+												</td>
+												<td class="px-1 py-2">
+													8
+												</td>
+												<td class="px-1 py-2">
+													8
+												</td>
+												<td class="px-1 py-2">
+													0
+												</td>
+												<td class="px-1 py-2">
+													16
+												</td>
+												<td class="px-1 py-2">
+													2.456
+												</td>
+											</tr>
+											<tr>
+												<td class="px-1 py-2">
+													4
+												</td>
+												<td class="px-1 py-2">
+													<div class="d-flex align-items-center gap-1">
+														<img src="./assets/images/india.png" alt="">
+														<p class="mb-0">
+															IND
+														</p>
+													</div>
+												</td>
+												<td class="px-1 py-2">
+													8
+												</td>
+												<td class="px-1 py-2">
+													8
+												</td>
+												<td class="px-1 py-2">
+													0
+												</td>
+												<td class="px-1 py-2">
+													16
+												</td>
+												<td class="px-1 py-2">
+													2.456
+												</td>
+											</tr>
+											<tr>
+												<td class="px-1 py-2">
+													5
+												</td>
+												<td class="px-1 py-2">
+													<div class="d-flex align-items-center gap-1">
+														<img src="./assets/images/india.png" alt="">
+														<p class="mb-0">
+															IND
+														</p>
+													</div>
+												</td>
+												<td class="px-1 py-2">
+													8
+												</td>
+												<td class="px-1 py-2">
+													8
+												</td>
+												<td class="px-1 py-2">
+													0
+												</td>
+												<td class="px-1 py-2">
+													16
+												</td>
+												<td class="px-1 py-2">
+													2.456
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="mb-4">
+									<a href="#" class="cutsom-btn-drop px-2 py-1 d-block m-auto">
+										View All
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="card mt-3 radius-10 text-center">
+							<div class="card-body  pb-2-2 p-0 overflow-hidden">
+								<h1 class="f-18 p-3">
+									RANKING
+								</h1>
+								<div class="table-data-area ">
+									<ul class="nav nav-pills border-bottom pb-3 justify-content-center mb-3" id="pills-tab" role="tablist">
+										<li class="nav-item mr-3" role="presentation">
+											<button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill"
+											data-bs-target="#test" type="button" role="tab" aria-controls="pills-home"
+											aria-selected="true">
+												TEST
+											</button>
+										</li>
+										<li class="nav-item mr-3" role="presentation">
+											<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+											data-bs-target="#odi" type="button" role="tab" aria-controls="pills-profile"
+											aria-selected="false">
+												ODI
+											</button>
+										</li>
+										<li class="nav-item" role="presentation">
+											<button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+											data-bs-target="#icc" type="button" role="tab" aria-controls="pills-contact"
+											aria-selected="false">
+												T20I
+											</button>
+										</li>
+									</ul>
+									<div class="tab-content" id="pills-tabContent">
+										<div class="tab-pane double-tab fade show active" id="test" role="tabpanel"
+										aria-labelledby="pills-home-tab" tabindex="0">
+											<ul class="nav nav-pills gap-3 justify-content-center mb-3" id="pills-tab"
+											role="tablist">
+												<li class="nav-item" role="presentation">
+													<button class="nav-link border-active px-0 f-12 active" id="pills-home-tab"
+													data-bs-toggle="pill" data-bs-target="#teams" type="button" role="tab"
+													aria-controls="pills-home" aria-selected="true">
+														Teams
+													</button>
+												</li>
+												<li class="nav-item f-12" role="presentation">
+													<button class="nav-link border-active px-0" id="pills-profile-tab" data-bs-toggle="pill"
+													data-bs-target="#bat" type="button" role="tab" aria-controls="pills-profile"
+													aria-selected="false">
+														Battings
+													</button>
+												</li>
+												<li class="nav-item f-12" role="presentation">
+													<button class="nav-link border-active px-0" id="pills-contact-tab" data-bs-toggle="pill"
+													data-bs-target="#bowl" type="button" role="tab" aria-controls="pills-contact"
+													aria-selected="false">
+														Bowling
+													</button>
+												</li>
+												<li class="nav-item f-12" role="presentation">
+													<button class="nav-link border-active px-0" id="pills-contact-tab" data-bs-toggle="pill"
+													data-bs-target="#alr" type="button" role="tab" aria-controls="pills-contact"
+													aria-selected="false">
+														ALR
+													</button>
+												</li>
+											</ul>
+											<div class="tab-content" id="pills-tabContent">
+												<div class="tab-pane fade show active" id="teams" role="tabpanel" aria-labelledby="pills-home-tab"
+												tabindex="0">
+													<div class="table-data-area">
+														<table class="table">
+															<thead class="">
+																<tr class="f-14">
+																	<th class="px-1 border-0 right-radius">
+																		Rank
+																	</th>
+																	<th class="">
+																		Team
+																	</th>
+																	<th class="px-1 border-0 left-radius">
+																		Rating
+																	</th>
+																</tr>
+															</thead>
+															<tbody class="f-12">
+																<tr>
+																	<td class="px-1 py-2">
+																		1
+																	</td>
+																	<td class="px-1 py-2">
+																		<div class="d-flex align-items-center gap-1">
+																			<img src="./assets/images/india.png" alt="">
+																			<p class="mb-0">
+																				India
+																			</p>
+																		</div>
+																	</td>
+																	<td class="px-1 py-2">
+																		118
+																	</td>
+																</tr>
+																<tr>
+																	<td class="px-1 py-2">
+																		2
+																	</td>
+																	<td class="px-1 py-2">
+																		<div class="d-flex align-items-center gap-1">
+																			<img src="./assets/images/india.png" alt="">
+																			<p class="mb-0">
+																				Austrelia
+																			</p>
+																		</div>
+																	</td>
+																	<td class="px-1 py-2">
+																		118
+																	</td>
+																</tr>
+																<tr>
+																	<td class="px-1 py-2">
+																		3
+																	</td>
+																	<td class="px-1 py-2">
+																		<div class="d-flex align-items-center gap-1">
+																			<img src="./assets/images/india.png" alt="">
+																			<p class="mb-0">
+																				England
+																			</p>
+																		</div>
+																	</td>
+																	<td class="px-1 py-2">
+																		118
+																	</td>
+																</tr>
+																<tr>
+																	<td class="px-1 py-2">
+																		4
+																	</td>
+																	<td class="px-1 py-2">
+																		<div class="d-flex align-items-center gap-1">
+																			<img src="./assets/images/india.png" alt="">
+																			<p class="mb-0">
+																				South Africa
+																			</p>
+																		</div>
+																	</td>
+																	<td class="px-1 py-2">
+																		118
+																	</td>
+																</tr>
+																<tr>
+																	<td class="px-1 py-2">
+																		5
+																	</td>
+																	<td class="px-1 py-2">
+																		<div class="d-flex align-items-center gap-1">
+																			<img src="./assets/images/india.png" alt="">
+																			<p class="mb-0">
+																				New Zealand
+																			</p>
+																		</div>
+																	</td>
+																	<td class="px-1 py-2">
+																		118
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+												<div class="tab-pane fade" id="bowl" role="tabpanel" aria-labelledby="pills-profile-tab"
+												tabindex="0">
+													Some other content
+												</div>
+												<div class="tab-pane fade" id="bat" role="tabpanel" aria-labelledby="pills-contact-tab"
+												tabindex="0">
+													Some other content
+												</div>
+												<div class="tab-pane fade" id="alr" role="tabpanel" aria-labelledby="pills-contact-tab"
+												tabindex="0">
+													Some other content
+												</div>
+											</div>
+										</div>
+										<div class="tab-pane fade" id="odi" role="tabpanel" aria-labelledby="pills-profile-tab"
+										tabindex="0">
+											Some other content
+										</div>
+										<div class="tab-pane fade" id="icc" role="tabpanel" aria-labelledby="pills-contact-tab"
+										tabindex="0">
+											Some other content
+										</div>
+									</div>
+								</div>
+								<div class="mb-4">
+									<p class="mb-0 f-10">
+										Last Updated On Nov 10, 2023, 13:30 IST
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="card mt-3 radius-10 text-center">
+							<div class="card-body  pb-2-2 p-0 overflow-hidden">
+								<h1 class="f-18 p-3">
+									CURRENT SERIES
+								</h1>
+								<div class="series-sec p-2">
+									<button type="button" class="searies-btn mb-2">
+										ICC Cricket World Cup
+									</button>
+									<button type="button" class="searies-btn mb-2">
+										Womens Big Bash League
+									</button>
+									<button type="button" class="searies-btn mb-2">
+										Nepal T20I triangular Series
+									</button>
+									<button type="button" class="searies-btn mb-2">
+										Syed Mushtaq Ali Trophy
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="add-space text-center my-3">
+							<img src="./assets/images/final-ads.png" alt="" class="w-100">
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+		</article>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>
-    Project
-  </title>
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-</head>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
-    <div class="container ">
-      <a class="navbar-brand" href="#">
-        CricBites
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-        </span>
-      </button>
-      <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        </ul>
-        <form class="d-flex gap-3" role="search">
-          <input class="form-control search me-2" type="search" placeholder="Search here..." aria-label="Search">
-          <i class="bi bi-person-circle text-light h2">
-          </i>
-          <i class="bi bi-list text-light h2">
-          </i>
-        </form>
-      </div>
-    </div>
-  </nav>
-  <section class="section mt-3">
-    <div class="container">
-      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active f-14" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-            type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-            ODI World Cup
-          </button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link f-14" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
-            WBBL
-          </button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link f-14" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-            type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-            QEA Trophy 2023
-          </button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link f-14" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-            type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-            SMAT 2023
-          </button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link f-14" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-            type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-            TCPL
-          </button>
-        </li>
-      </ul>
-      <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
-          tabindex="0">
-          <div id="productCarousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-md-3">
-                    <div class="card ">
-                      <div class="card-body py-1">
-                        <div class="card-content text-center">
-                          <p class="f-12 mb-0">
-                            <span class="text-danger">
-                              Live
-                            </span>
-                            -
-                            <strong>
-                              18th Match
-                            </strong>
-                            -
-                            <span class="text-secondary">
-                              Bengaluru
-                            </span>
-                          </p>
-                          <span class="f-10">
-                            ICC Cricket World Cup
-                          </span>
-                          <div class="teams-block mb-3 d-flex justify-content-between align-items-center">
-                            <div class="rl-side d-flex  align-items-center">
-                              <img src="./assets/images/Group 4.svg" alt="" class="img-circle mr-2" />
-                              <p class="f-10 mb-0">
-                                <strong>
-                                  Australia
-                                </strong>
-                              </p>
-                            </div>
-                            <div class="lr-slide">
-                              <p class="mb-0 f-10">
-                                367-9 (50)
-                              </p>
-                            </div>
-                          </div>
-                          <div class="teams-block d-flex justify-content-between align-items-center">
-                            <div class="rl-side d-flex align-items-center">
-                              <img src="./assets/images/Group 3.svg" alt="" class="img-circle mr-2">
-                              <p class="f-10 mb-0">
-                                <strong>
-                                  Pakistan
-                                </strong>
-                              </p>
-                            </div>
-                            <div class="lr-slide">
-                              <p class="mb-0 f-10">
-                                50-0 (9)
-                              </p>
-                            </div>
-                          </div>
-                          <div class="remamining-area text-left">
-                            <span class="text-danger f-8">
-                              Pakistan need 313 runs in 41 remaining overs
-                            </span>
-                          </div>
-                        </div>
-                        <div class="card-act px-2 d-flex gap-3 mt-2">
-                          <a href="#" class="cutsom-btn px-2 py-1">
-                            Fantasy
-                          </a>
-                          <a href="#" class="cutsom-btn px-2 py-1">
-                            Fantasy
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="card ">
-                      <div class="card-body py-1">
-                        <div class="card-content text-center">
-                          <p class="f-12 mb-0">
-                            <span class="text-danger">
-                              Live
-                            </span>
-                            -
-                            <strong>
-                              18th Match
-                            </strong>
-                            -
-                            <span class="text-secondary">
-                              Bengaluru
-                            </span>
-                          </p>
-                          <span class="f-10">
-                            ICC Cricket World Cup
-                          </span>
-                          <div class="teams-block mb-3 d-flex justify-content-between align-items-center">
-                            <div class="rl-side d-flex  align-items-center">
-                              <img src="./assets/images/Group 4.svg" alt="" class="img-circle mr-2" />
-                              <p class="f-10 mb-0">
-                                <strong>
-                                  Australia
-                                </strong>
-                              </p>
-                            </div>
-                            <div class="lr-slide">
-                              <p class="mb-0 f-10">
-                                367-9 (50)
-                              </p>
-                            </div>
-                          </div>
-                          <div class="teams-block d-flex justify-content-between align-items-center">
-                            <div class="rl-side d-flex align-items-center">
-                              <img src="./assets/images/Group 3.svg" alt="" class="img-circle mr-2">
-                              <p class="f-10 mb-0">
-                                <strong>
-                                  Pakistan
-                                </strong>
-                              </p>
-                            </div>
-                            <div class="lr-slide">
-                              <p class="mb-0 f-10">
-                                50-0 (9)
-                              </p>
-                            </div>
-                          </div>
-                          <div class="remamining-area text-left">
-                            <span class="text-danger f-8">
-                              Pakistan need 313 runs in 41 remaining overs
-                            </span>
-                          </div>
-                        </div>
-                        <div class="card-act px-2 d-flex gap-3 mt-2">
-                          <a href="#" class="cutsom-btn px-2 py-1">
-                            Fantasy
-                          </a>
-                          <a href="#" class="cutsom-btn px-2 py-1">
-                            Fantasy
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="card ">
-                      <div class="card-body py-1">
-                        <div class="card-content text-center">
-                          <p class="f-12 mb-0">
-                            <span class="text-danger">
-                              Live
-                            </span>
-                            -
-                            <strong>
-                              18th Match
-                            </strong>
-                            -
-                            <span class="text-secondary">
-                              Bengaluru
-                            </span>
-                          </p>
-                          <span class="f-10">
-                            ICC Cricket World Cup
-                          </span>
-                          <div class="teams-block mb-3 d-flex justify-content-between align-items-center">
-                            <div class="rl-side d-flex  align-items-center">
-                              <img src="./assets/images/Group 4.svg" alt="" class="img-circle mr-2" />
-                              <p class="f-10 mb-0">
-                                <strong>
-                                  Australia
-                                </strong>
-                              </p>
-                            </div>
-                            <div class="lr-slide">
-                              <p class="mb-0 f-10">
-                                367-9 (50)
-                              </p>
-                            </div>
-                          </div>
-                          <div class="teams-block d-flex justify-content-between align-items-center">
-                            <div class="rl-side d-flex align-items-center">
-                              <img src="./assets/images/Group 3.svg" alt="" class="img-circle mr-2">
-                              <p class="f-10 mb-0">
-                                <strong>
-                                  Pakistan
-                                </strong>
-                              </p>
-                            </div>
-                            <div class="lr-slide">
-                              <p class="mb-0 f-10">
-                                50-0 (9)
-                              </p>
-                            </div>
-                          </div>
-                          <div class="remamining-area text-left">
-                            <span class="text-danger f-8">
-                              Pakistan need 313 runs in 41 remaining overs
-                            </span>
-                          </div>
-                        </div>
-                        <div class="card-act px-2 d-flex gap-3 mt-2">
-                          <a href="#" class="cutsom-btn px-2 py-1">
-                            Fantasy
-                          </a>
-                          <a href="#" class="cutsom-btn px-2 py-1">
-                            Fantasy
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="card ">
-                      <div class="card-body py-1">
-                        <div class="card-content text-center">
-                          <p class="f-12 mb-0">
-                            <span class="text-danger">
-                              Live
-                            </span>
-                            -
-                            <strong>
-                              18th Match
-                            </strong>
-                            -
-                            <span class="text-secondary">
-                              Bengaluru
-                            </span>
-                          </p>
-                          <span class="f-10">
-                            ICC Cricket World Cup
-                          </span>
-                          <div class="teams-block mb-3 d-flex justify-content-between align-items-center">
-                            <div class="rl-side d-flex  align-items-center">
-                              <img src="./assets/images/Group 4.svg" alt="" class="img-circle mr-2" />
-                              <p class="f-10 mb-0">
-                                <strong>
-                                  Australia
-                                </strong>
-                              </p>
-                            </div>
-                            <div class="lr-slide">
-                              <p class="mb-0 f-10">
-                                367-9 (50)
-                              </p>
-                            </div>
-                          </div>
-                          <div class="teams-block d-flex justify-content-between align-items-center">
-                            <div class="rl-side d-flex align-items-center">
-                              <img src="./assets/images/Group 3.svg" alt="" class="img-circle mr-2">
-                              <p class="f-10 mb-0">
-                                <strong>
-                                  Pakistan
-                                </strong>
-                              </p>
-                            </div>
-                            <div class="lr-slide">
-                              <p class="mb-0 f-10">
-                                50-0 (9)
-                              </p>
-                            </div>
-                          </div>
-                          <div class="remamining-area text-left">
-                            <span class="text-danger f-8">
-                              Pakistan need 313 runs in 41 remaining overs
-                            </span>
-                          </div>
-                        </div>
-                        <div class="card-act px-2 d-flex gap-3 mt-2">
-                          <a href="#" class="cutsom-btn px-2 py-1">
-                            Fantasy
-                          </a>
-                          <a href="#" class="cutsom-btn px-2 py-1">
-                            Fantasy
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-3">
-                    <div class="card">
-                      <div class="card-body py-1">
-                        Card 5
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="card">
-                      <div class="card-body py-1">
-                        Card 6
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="card">
-                      <div class="card-body py-1">
-                        Card 7
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="card">
-                      <div class="card-body py-1">
-                        Card 8
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Add more slides as needed -->
-            </div>
-            <!-- Add navigation controls (optional) -->
-            <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true">
-              </span>
-              <span class="sr-only">
-                Previous
-              </span>
-            </a>
-            <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true">
-              </span>
-              <span class="sr-only">
-                Next
-              </span>
-            </a>
-          </div>
-        </div>
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-          ...
-        </div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
-          ...
-        </div>
-        <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
-          tabindex="0">
-          ...
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <article class="mt-3">
-    <div class="container">
-      <div class="row no-wrap">
-        <div class="col-md-4 pe-1">
-          <div class="card radius-10">
-            <div class="card-body p-3">
-              <h1 class="f-18 text-center">WORLD CUP STATS</h1>
-              <div class="player-card mb-2 bg-c-black d-flex align-items-center justify-content-between">
-                <div class="p-c w-100">
-                  <h3 class="f-16 mb-0">Most Runs</h3>
-                  <p class="f-12">Rachin Ravindra</p>
-                  <div class="d-flex gap-3 align-items-center">
-                    <img src="./assets/images/Group 3.svg" alt="">
-                    <h2 class="f-12 mb-0">NZ</h2>
-                  </div>
-                </div>
-                <div class="scrore-board w-100 d-flex align-items-center">
-                  <div class="score mt-3 w-100">
-                    <h2 class="f-16 mb-0">565</h2>
-                    <p mb-0>Runs</p>
-                  </div>
-                  <img src="./assets/images/Screenshot_2023-11-10_155948-removebg-preview 1 (1).svg" alt="">
-                </div>
-              </div>
-              <div class="player-card  mb-2 bg-c-black d-flex align-items-center justify-content-between">
-                <div class="p-c w-100">
-                  <h3 class="f-16 mb-0">Most Wickets</h3>
-                  <p class="f-12">Dilshan Madushanka</p>
-                  <div class="d-flex gap-3 align-items-center">
-                    <img src="./assets/images/Group 3.svg" alt="">
-                    <h2 class="f-12 mb-0">SL</h2>
-                  </div>
-                </div>
-                <div class="scrore-board w-100 d-flex align-items-center">
-                  <div class="score mt-3 w-100">
-                    <h2 class="f-16 mb-0">21</h2>
-                    <p mb-0>Wickets</p>
-                  </div>
-                  <img src="./assets/images/s.svg" alt="">
-                </div>
-              </div>
-              <div class="player-card  mb-2 bg-c-black d-flex align-items-center justify-content-between">
-                <div class="p-c w-100">
-                  <h3 class="f-16 mb-0">Most 100s</h3>
-                  <p class="f-12">Quinton de Kock</p>
-                  <div class="d-flex gap-3 align-items-center">
-                    <img src="./assets/images/Group 3.svg" alt="">
-                    <h2 class="f-12 mb-0">SA</h2>
-                  </div>
-                </div>
-                <div class="scrore-board w-100 d-flex align-items-center">
-                  <div class="score mt-3 w-100">
-                    <h2 class="f-16 mb-0">4</h2>
-                    <p class="mb-0">100s</p>
-                  </div>
-                  <img src="./assets/images/sss.png" alt="">
-                </div>
-              </div>
-              <div class="player-card  mb-2 bg-c-black d-flex align-items-center justify-content-between">
-                <div class="p-c w-100">
-                  <h3 class="f-16 mb-0">Most Runs</h3>
-                  <p class="f-12">Rachin Ravindra</p>
-                  <div class="d-flex gap-3 align-items-center">
-                    <img src="./assets/images/Group 3.svg" alt="">
-                    <h2 class="f-12 mb-0">NZ</h2>
-                  </div>
-                </div>
-                <div class="scrore-board w-100 d-flex align-items-center">
-                  <div class="score mt-3 w-100">
-                    <h2 class="f-16 mb-0">565</h2>
-                    <p mb-0>Runs</p>
-                  </div>
-                  <img src="./assets/images/Screenshot_2023-11-10_155948-removebg-preview 1 (1).svg" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="add-space text-center my-2">
-            <img src="./assets/images/goolge ads.png" alt="" class="w-75">
-          </div>
-          <div class="card radius-10 mt-3">
-            <div class="card-body p-3">
-              <h1 class="f-18 text-center">LATEST NEWS</h1>
-              <div class="card-body short-blog p-0 mb-3">
-                <div class="card-img p-0">
-                  <img src="./assets/images/diana-baig-injured-her-index-f.jpg.jpg" alt="" class="w-100">
-                </div>
-                <h4 class="title f-16 mb-0 mt-1">January 2023 - News Digest</h4>
-                <p class="f-14">News byte that you may have otherwise</p>
-              </div>
-              <div class="card-body short-blog p-0 mb-3">
-                <div class="card-img p-0">
-                  <img src="./assets/images/rishabh-pant-was-involved-in-a.jpg.png" alt="" class="w-100">
-                </div>
-                <h4 class="title f-16 mb-0 mt-1">The good Samaritans who came to Rishabh Pant's rescue</h4>
-                <p class="f-14">Bus driver Sushil and conductor Paramjeet, who rushed to help Rishabh Pant, recalled the
-                  turn of events in the wee hours</p>
-              </div>
-              <div class="card-body short-blog p-0 mb-3">
-                <div class="card-img p-0">
-                  <img src="./assets/images/david-warner-withdrew-his-appe.jpg.png" alt="" class="w-100">
-                </div>
-                <h4 class="title f-16 mb-0 mt-1">Cricket Australia lose sight of what Warner has become</h4>
-                <p class="f-14">By dragging this captaincy ban issue out much longer than was required, CA have once
-                  again highlighted the prevalent archaic master-slave relationship between administrators and players
-                  in sport</p>
-              </div>
-              <div class="card-body short-blog p-0 mb-3">
-                <div class="card-img p-0">
-                  <img src="./assets/images/gill-has-emerged-as-the-leadin.jpg.png" alt="" class="w-100">
-                </div>
-                <h4 class="title f-16 mb-0 mt-1">How are India's ODI stocks as they build up for the 2023 World Cup?
-                </h4>
-                <p class="f-14">The series against Bangladesh will see a near full strength India side kick-starting the
-                  journey to the 2023 World Cup</p>
-              </div>
-              <div class="card-body short-blog p-0 mb-3">
-                <div class="card-img p-0">
-                  <img src="./assets/images/putting-up-fighting-totals-in.jpg.png" alt="" class="w-100">
-                </div>
-                <h4 class="title f-16 mb-0 mt-1">Onus on Bangladesh batters to deliver in next WTC cycle</h4>
-                <p class="f-14">In Test cricket, Bangladesh have had a poor record for a while which is largely down to
-                  their low scores in the first innings. Will things change in the next WTC cycle?</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5 p-1">
-          <div class="card border-0">
-            <div class="card-body ">
-              <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#article"
-                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">Articles</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#fantasy"
-                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Fantasy</button>
-                </li>
-              </ul>
-              <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="article" role="tabpanel" aria-labelledby="pills-home-tab"
-                  tabindex="0">
-                  <div class="blog-area">
-                    <div class="blog-img">
-                      <img src="./assets/images/1697802797229_Cummins 1 (1).png" alt="" class="w-100">
-                    </div>
-                    <div class="blog-details mt-2">
-                      <h6 class="mb-0 f-24 my-2">Twitter Reactions: Openers Warner-Marsh's Twitter Reactions: Openers
-                        Warner-Marsh's</h6>
-                      <p class="f-14">
-                        The financial bids will need to be submitted two days later but the technical bids will provide
-                        a good indication about the parties interested in buying the five WIPL teams
-                      </p>
-                    </div>
-                    <div class="blog-footer d-flex f-12 gap-3 align-items-center">
-                      <p class="mb-0 "><i class="bi bi-calendar3 f-18"></i> &nbsp; Sun, Oct 20 2023</p>
-                      <div class="divider"></div>
-                      <p class="mb-0"><i class="bi bi-clock f-18"></i>&nbsp; 2 min read</p>
-                    </div>
-                  </div>
-                  <hr>
-                  <div class="blog-area">
-                    <p class="f-12 mb-1">Australia VS Pakistan, 18th Match WTC 2023</p>
-                    <div class="blog-img">
-                      <img src="./assets/images/clinical-india-take-unassailab.jpg.png" alt="" class="w-100 rounded">
-                    </div>
-                    <div class="blog-details mt-2">
-                      <h6 class="mb-0 f-24 my-2">Top 3 World Cup matches which were decided by Pakistan's dropped
-                        catches</h6>
-                      <p class="f-14">
-                        Pakistan team has always been the butt of jokes when it comes to fielding.
-                      </p>
-                      </p>
-                    </div>
-                    <div class="blog-footer d-flex f-12 gap-3 align-items-center">
-                      <div class="card w-75">
-                        <div class="card-body py-1">
-                          <div class="card-content text-center">
-                            <div class="teams-block mb-3 d-flex justify-content-between align-items-center">
-                              <div class="rl-side d-flex  align-items-center">
-                                <img src="./assets/images/Group 4.svg" alt="" class="img-circle mr-2" />
-                                <p class="f-10 mb-0">
-                                  <strong>
-                                    Australia
-                                  </strong>
-                                </p>
-                              </div>
-                              <div class="lr-slide">
-                                <p class="mb-0 f-10">
-                                  367-9 (50)
-                                </p>
-                              </div>
-                            </div>
-                            <div class="teams-block d-flex justify-content-between align-items-center">
-                              <div class="rl-side d-flex align-items-center">
-                                <img src="./assets/images/Group 3.svg" alt="" class="img-circle mr-2">
-                                <p class="f-10 mb-0">
-                                  <strong>
-                                    Pakistan
-                                  </strong>
-                                </p>
-                              </div>
-                              <div class="lr-slide">
-                                <p class="mb-0 f-10">
-                                  50-0 (9)
-                                </p>
-                              </div>
-                            </div>
-                            <div class="remamining-area text-left">
-                              <span class="text-danger f-8">
-                                Pakistan need 313 runs in 41 remaining overs
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <hr>
-                  <div class="blog-area">
-                    <p class="f-12 mb-1">RANJI TROPHY</p>
-                    <div class="horizental-card-area d-flex gap-3 align-items-end">
-                      <div class="blog-img">
-                        <img src="./assets/images/clinical-india-take-unassailab.jpg.png" alt="" class="rounded">
-                      </div>
-                      <div class="blog-details mt-2 w-100">
-                        <h6 class="mb-0 f-18 my-2 w-100">Ranji Highlights: Bengal, Karnataka reach quarterfinals</h6>
-                        <div class="blog-footer ">
-                          <p class="mb-0 f-10"><i class="bi bi-calendar3 f-10"></i> &nbsp; 2d ago</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="blog-area-details-2 mt-2">
-                      <p class="f-14">
-                        A draw against Kerala was enough for Karnataka to reach the last 8 whereas Bengal thrashed
-                        Haryana to progress
-                      </p>
-
-                    </div>
-                  </div>
-                  <hr>
-                  <div class="blog-area">
-                    <p class="f-12 mb-1">PAKISTAN WOMEN TOUR OF AUSTRALIA, 2023</p>
-                    <div class="horizental-card-area d-flex gap-3 align-items-end">
-                      <div class="blog-img">
-                        <img src="./assets/images/mooneys-career-best-133-sets.jpg.png" alt="" class="rounded">
-                      </div>
-                      <div class="blog-details mt-2 w-100">
-                        <h6 class="mb-0 f-18 my-2 w-100">Mooney's career-best 133 sets up ODI series sweep 2023 tour
-                        </h6>
-                        <div class="blog-footer ">
-                          <p class="mb-0 f-10"><i class="bi bi-calendar3 f-10"></i> &nbsp; 2d ago</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="blog-area-details-2 mt-2">
-                      <p class="f-14">
-                        A draw against Kerala was enough for Karnataka to reach the last 8 whereas Bengal thrashed
-                        Haryana to progress
-                      </p>
-
-                    </div>
-                  </div>
-                  <hr>
-                  <div class="blog-area">
-                    <p class="f-12 mb-1">SA20 2023</p>
-                    <div class="horizental-card-area d-flex gap-3 align-items-end">
-                      <div class="blog-img">
-                        <img src="./assets/images/paarl-royals-return-to-winning.jpg.png" alt="" class="rounded">
-                      </div>
-                      <div class="blog-details mt-2 w-100">
-                        <h6 class="mb-0 f-18 my-2 w-100">Paarl Royals return to winning ways Paarl Royals return to</h6>
-                        <div class="blog-footer ">
-                          <p class="mb-0 f-10"><i class="bi bi-calendar3 f-10"></i> &nbsp; 2d ago</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="blog-area-details-2 mt-2">
-                      <p class="f-14">
-                        Theunis de Bruyn's half-century went in vain as Royals secured a six-wicket win over Pretoria
-                        Capitals
-                      </p>
-
-                    </div>
-                  </div>
-                  <hr>
-                  <div class="blog-area">
-                    <p class="f-12 mb-1">BIG BASH LEAGUE, 2022-23</p>
-                    <div class="horizental-card-area d-flex gap-3 align-items-end">
-                      <div class="blog-img">
-                        <img src="./assets/images/smiths-second-successive-ton.jpg.png" alt="" class="rounded">
-                      </div>
-                      <div class="blog-details mt-2 w-100">
-                        <h6 class="mb-0 f-18 my-2 w-100">Smith's second successive ton sets up Sixers' big win against
-                          Thunder</h6>
-                        <div class="blog-footer ">
-                          <p class="mb-0 f-10"><i class="bi bi-calendar3 f-10"></i> &nbsp; 2d ago</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="blog-area-details-2 mt-2">
-                      <p class="f-14">
-                        Steve Smith struck an unbeaten 125 off 66 before Steve O'Keefe and Sean Abbott picked up seven
-                        wickets between them to power their side to a 125-run win
-                      </p>
-
-                    </div>
-                  </div>
-                  <div class="add-space text-center mt-3">
-                    <img src="./assets/images/google-ads-2.jpg" alt="" class="w-100">
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="fantasy" role="tabpanel" aria-labelledby="pills-profile-tab"
-                  tabindex="0">...</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 ps-1">
-          <div class="card radius-10 text-center">
-            <div class="card-body  pb-2-2 p-0 overflow-hidden">
-              <h1 class="f-18 p-3">WC POINTS TABLE</h1>
-              <div class="table-data-area">
-                <table class="table">
-                  <thead class="">
-                    <tr class="f-14">
-                      <th class="px-1 right-radius">No</th>
-                      <th class="px-1">Team</th>
-                      <th class="px-1">M</th>
-                      <th class="px-1">W</th>
-                      <th class="px-1">L</th>
-                      <th class="px-1">PT</th>
-                      <th class="px-1 left-radius">NRR</th>
-                    </tr>
-                  </thead>
-                  <tbody class="f-12">
-                    <tr>
-                      <td class="px-1">1</td>
-                      <td class="px-1">
-                        <div class="d-flex align-items-center gap-1">
-                          <img src="./assets/images/Group 3.svg" alt="">
-                          <p class="mb-0">IND</p>
-                        </div>
-                      </td>
-                      <td class="px-1">8</td>
-                      <td class="px-1">8</td>
-                      <td class="px-1">0</td>
-                      <td class="px-1">16</td>
-                      <td class="px-1">2.456</td>
-                    </tr>
-                    <tr>
-                      <td class="px-1">2</td>
-                      <td class="px-1">
-                        <div class="d-flex align-items-center gap-1">
-                          <img src="./assets/images/Group 3.svg" alt="">
-                          <p class="mb-0">IND</p>
-                        </div>
-                      </td>
-                      <td class="px-1">8</td>
-                      <td class="px-1">8</td>
-                      <td class="px-1">0</td>
-                      <td class="px-1">16</td>
-                      <td class="px-1">2.456</td>
-                    </tr>
-                    <tr>
-                      <td class="px-1">3</td>
-                      <td class="px-1">
-                        <div class="d-flex align-items-center gap-1">
-                          <img src="./assets/images/Group 3.svg" alt="">
-                          <p class="mb-0">IND</p>
-                        </div>
-                      </td>
-                      <td class="px-1">8</td>
-                      <td class="px-1">8</td>
-                      <td class="px-1">0</td>
-                      <td class="px-1">16</td>
-                      <td class="px-1">2.456</td>
-                    </tr>
-                    <tr>
-                      <td class="px-1">4</td>
-                      <td class="px-1">
-                        <div class="d-flex align-items-center gap-1">
-                          <img src="./assets/images/Group 3.svg" alt="">
-                          <p class="mb-0">IND</p>
-                        </div>
-                      </td>
-                      <td class="px-1">8</td>
-                      <td class="px-1">8</td>
-                      <td class="px-1">0</td>
-                      <td class="px-1">16</td>
-                      <td class="px-1">2.456</td>
-                    </tr>
-                    <tr>
-                      <td class="px-1">5</td>
-                      <td class="px-1">
-                        <div class="d-flex align-items-center gap-1">
-                          <img src="./assets/images/Group 3.svg" alt="">
-                          <p class="mb-0">IND</p>
-                        </div>
-                      </td>
-                      <td class="px-1">8</td>
-                      <td class="px-1">8</td>
-                      <td class="px-1">0</td>
-                      <td class="px-1">16</td>
-                      <td class="px-1">2.456</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="mb-4">
-                <a href="#" class="cutsom-btn-drop px-2 py-1 d-block m-auto">
-                  View All
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card mt-3 radius-10 text-center">
-            <div class="card-body  pb-2-2 p-0 overflow-hidden">
-              <h1 class="f-18 p-3">RANKING</h1>
-              <div class="table-data-area">
-               
-              </div>
-              <div class="mb-4">
-                <a href="#" class="cutsom-btn-drop px-2 py-1 d-block m-auto">
-                  View All
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    </td>
-    <td class="px-1">8</td>
-    <td class="px-1">8</td>
-    <td class="px-1">0</td>
-    <td class="px-1">16</td>
-    <td class="px-1">2.456</td>
-    </tr>
-
-    </tbody>
-    </table>
-    </div>
-    <a href="#" class="cutsom-btn-drop px-2 py-1 d-block m-auto">
-      View All
-    </a>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-  </article>
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
-  </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
-  </script>
-</body>
+		<footer class="b-dark mt-3 p-3 ">
+			<div class="container">
+				<div class="d-flex justify-content-between">
+				  <div class="title">
+					<h3 class="fw-bolder text-light">CricBites</h3>
+				  </div>
+				  <div class="social">
+						<ul class="nav navbar">
+							<li class="nav-item">
+								<a href="" class="nav-link bg-light t-dark rounded-circle ms-2">
+									<i class="bi t-dark bi-youtube"></i>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="" class="nav-link bg-light t-dark f-24 rounded-circle ms-2">
+									<i class="bi t-dark bi-facebook "></i>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="" class="nav-link bg-light f-24 t-dark rounded-circle ms-2">
+									<i class="bi t-dark bi-instagram f-16"></i>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="" class="nav-link bg-light f-24 t-dark rounded-circle ms-2">
+									<i class="bi bi-twitter t-dark"></i>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="" class="nav-link bg-light f-24 t-dark rounded-circle ms-2">
+									<i class="bi t-dark bi-linkedin"></i>
+								</a>
+							</li>
+						</ul>
+				  </div>
+				</div>
+			<div class="foot-info text-light w-75 mb-2 f-12">
+				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that  it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+			</div>   
+			<hr class="bg-secondary">  
+			<div class="foot-content  text-center w-75 m-auto">
+				<ul class="nav navbar">
+					<li class="nav-item f-14">
+						<a href="" class="nav-link text-light">
+						  ABOUT
+						</a>
+					</li>
+					<li class="nav-item f-14">
+						<a href="#" class="nav-link  text-light">
+							CAREERS
+						</a>
+					</li>
+					<li class="nav-item f-14">
+						<a href="#" class="nav-link  text-light">
+							WRITE FOR US
+						</a>
+					</li>
+					<li class="nav-item f-14">
+						<a href="#" class="nav-link  text-light">
+							CONTACT
+						</a>
+					</li>
+					<li class="nav-item f-14">
+						<a href="#" class="nav-link  text-light">
+							ADVERTISE WITH US 
+						</a>
+					</li>
+					<li class="nav-item f-14">
+						<a href="#" class="nav-link  text-light">
+							FEEDBACK
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="foot-detail text-center w-75 m-auto text-light f-12">
+				<p>
+					It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+				</p>
+				<div class="text-center">
+					<a href="" class="text-light "><u>Terms and Conditions</u></a>
+					<a href="" class="text-light ms-3"><u>Privacy Policy</u></a>
+				</div>
+			</div>
+			<hr>
+			<div class="d-flex justify-content-between text-light">
+				<p>
+					© 2023 CricBites.com. All rights reserved.
+				</p>
+				<p>
+					Design by <strong>Togwe Pvt. Ltd</strong>
+				</p>
+			</div>
+			</div>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous">
+		</script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+		</script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+		</script>
+	</body>
 
 </html>
